@@ -25,7 +25,7 @@ let onSignUp = (e) => {
         title: "Congurlation!",
         text: "Successfuly SignUp",
         icon: "success",
-      });      window.location = "../login/login.html";
+      });      window.location = "/public/index.html";
     })
     .catch(function (error) {
          // Handle Errors here.
